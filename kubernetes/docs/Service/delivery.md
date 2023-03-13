@@ -5,12 +5,12 @@
 ### Cluster에 delivery Service를 생성하려면 아래의 명령어를 실행하세요.
 
 ```
-$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/shop-axon-orch/jyjang%40uengine.org/Service/delivery.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230313T072658Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=498eb04b57d117fb68d664834926b8d6a0d9fd898f3d7238e119aa322b025cf9
+$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/shop-axon-orch/jyjang%40uengine.org/Service/delivery.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230313T074514Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=6c2aa9a7a242a89e0696e051aa977d77d90463996d4345efa77976592426deed
 ```
 - Yaml 파일에 명시된 스펙으로 delivery Service를 생성합니다.  
 
 ```
-$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/shop-axon-orch/jyjang%40uengine.org/Service/delivery.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230313T072658Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=498eb04b57d117fb68d664834926b8d6a0d9fd898f3d7238e119aa322b025cf9
+$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/shop-axon-orch/jyjang%40uengine.org/Service/delivery.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230313T074514Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=6c2aa9a7a242a89e0696e051aa977d77d90463996d4345efa77976592426deed
 ```
 - Create가 된 상태라면 delivery Service의 수정이 이루어지고, Create가 된 상태가 아니라면 delivery Service를 Create 해주는 명령어입니다.
 #

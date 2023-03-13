@@ -5,12 +5,12 @@
 ### Cluster에 order Service를 생성하려면 아래의 명령어를 실행하세요.
 
 ```
-$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/shop-axon-orch/jyjang%40uengine.org/Service/order.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230313T072658Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=2f1457cc094f53e3af85614919ce97ba08f6f712fbda502823a2529edce6b3a7
+$ kubectl create -f https://minio.msaez.io/labs-msaez.io/yamlStorage/shop-axon-orch/jyjang%40uengine.org/Service/order.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230313T074514Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=08899b6b515046b3d9c966406a25b20e0d987cbfa5b9c377b552da1842e6702a
 ```
 - Yaml 파일에 명시된 스펙으로 order Service를 생성합니다.  
 
 ```
-$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/shop-axon-orch/jyjang%40uengine.org/Service/order.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230313T072658Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=2f1457cc094f53e3af85614919ce97ba08f6f712fbda502823a2529edce6b3a7
+$ kubectl apply -f https://minio.msaez.io/labs-msaez.io/yamlStorage/shop-axon-orch/jyjang%40uengine.org/Service/order.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20230313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230313T074514Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=08899b6b515046b3d9c966406a25b20e0d987cbfa5b9c377b552da1842e6702a
 ```
 - Create가 된 상태라면 order Service의 수정이 이루어지고, Create가 된 상태가 아니라면 order Service를 Create 해주는 명령어입니다.
 #
