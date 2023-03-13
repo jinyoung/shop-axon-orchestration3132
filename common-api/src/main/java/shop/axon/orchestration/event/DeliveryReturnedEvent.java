@@ -7,5 +7,9 @@ import lombok.ToString;
 @ToString
 public class DeliveryReturnedEvent {
 
-    private Long id;
+    private String id;
+    private String address;
+    private String customerId;
+    private Integer quantity;
+    private Long orderId;
 }

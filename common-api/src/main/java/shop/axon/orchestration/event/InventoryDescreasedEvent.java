@@ -7,7 +7,7 @@ import lombok.ToString;
 @ToString
 public class InventoryDescreasedEvent {
 
-    private Long id;
+    private String id;
     private Long orderId;
     private Integer qty;
 }

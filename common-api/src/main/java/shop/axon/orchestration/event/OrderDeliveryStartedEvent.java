@@ -1,5 +1,6 @@
 package shop.axon.orchestration.event;
 
+import java.math.BigDecimal;
 import lombok.Data;
 import lombok.ToString;
 
@@ -7,11 +8,11 @@ import lombok.ToString;
 @ToString
 public class OrderDeliveryStartedEvent {
 
-    private Long id;
+    private String id;
     private String productId;
     private Integer qty;
     private String customerId;
-    private Double amount;
     private String status;
     private String address;
+    private BigDecimal amount;
 }
